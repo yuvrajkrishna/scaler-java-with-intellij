@@ -35,13 +35,23 @@ public class LogicProblem  {
 //    }
 //
 
-    int num = 5;
-    int factorial = 1;
-    for(int i = 1; i <= num; i++){
-        factorial *= i;
-    }
-        System.out.println(factorial);
+//    int num = 5;
+//    int factorial = 1;
+//    for(int i = 1; i <= num; i++){
+//        factorial *= i;
+//    }
+//        System.out.println(factorial);
 
+    int num = 10;
+    int i = 2;
+    int sum = 0;
+    while(i<=num){
+        if(i%2==0){
+            sum += i;
+        }
+        i+=2;
+    }
+        System.out.println(sum);
     }
 }
 
