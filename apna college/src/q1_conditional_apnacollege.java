@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class conditional {
+public class q1_conditional_apnacollege {
     static void main() {
         System.out.println("Enter Number to Check Whether Number is Positive or Negative");
         Scanner sc = new Scanner(System.in);
