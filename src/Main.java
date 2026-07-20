@@ -1,10 +1,16 @@
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args){
-        int n = 5;
-        for(int i = 1; i <=n ;i++ ){
-            for(int j = 1; j <=i ;j++ ){
-                System.out.println(i*j);
-            }
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        int cal = 0 ;
+        while(cal < n){
+            System.out.println("Running 1 step");
+            cal = cal +1;
         }
+        System.out.println("Target Acheived Take Rest");
     }
 }
