@@ -42,16 +42,26 @@ public class LogicProblem  {
 //    }
 //        System.out.println(factorial);
 
-    int num = 10;
-    int i = 2;
-    int sum = 0;
-    while(i<=num){
-        if(i%2==0){
-            sum += i;
+//    int num = 10;
+//    int i = 2;
+//    int sum = 0;
+//    while(i<=num){
+//        if(i%2==0){
+//            sum += i;
+//        }
+//        i+=2;
+//    }
+//        System.out.println(sum);
+
+//        Give a series of form 3i+2 print first n terms of series
+        int num = 5;
+        int i = 1;
+        while(i <= num){
+            System.out.println(3*i+2);
+            i++;
         }
-        i+=2;
-    }
-        System.out.println(sum);
+
+
     }
 }
 
