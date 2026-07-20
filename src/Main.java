@@ -12,5 +12,6 @@ class Main {
             cal = cal +1;
         }
         System.out.println("Target Acheived Take Rest");
+
     }
 }
