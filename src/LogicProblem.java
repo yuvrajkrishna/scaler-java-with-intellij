@@ -57,7 +57,13 @@ public class LogicProblem  {
         int num = 5;
         int i = 1;
         while(i <= num){
-            System.out.println(3*i+2);
+            int term = 3*i+2;
+            if(term % 5 == 0){
+                i++;
+                num++;
+                continue;
+            }
+            System.out.println(term);
             i++;
         }
 
