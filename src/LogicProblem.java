@@ -27,15 +27,20 @@ public class LogicProblem  {
 //        System.out.println(start);
 //        start--;
 //    }
-    int st = 1;
-    while(st <=100){
-        System.out.println(st);
+//    int st = 1;
+//    while(st <=100){
+//        System.out.println(st);
+//
+//        st*=2;
+//    }
+//
 
-        st*=2;
+    int num = 5;
+    int factorial = 1;
+    for(int i = 1; i <= num; i++){
+        factorial *= i;
     }
-
-
-
+        System.out.println(factorial);
 
     }
 }
