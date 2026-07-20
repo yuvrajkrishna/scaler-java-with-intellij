@@ -9,10 +9,10 @@ public class LogicProblem  {
 //        SUM OF ALL ODD NUMBERS FROM 1 TO N
 //        PRINT ALL MULTIPLICATION OF 4 FROM 1 TO N
 //        
-    System.out.println("Please enter the value of N");
-    Scanner sc = new Scanner(System.in);
-
-    int n = sc.nextInt();
+//    System.out.println("Please enter the value of N");
+//    Scanner sc = new Scanner(System.in);
+//
+//    int n = sc.nextInt();
 
 //    for(int i = 1; i <= n; i++){
 //        System.out.println(i);
@@ -22,10 +22,22 @@ public class LogicProblem  {
 //            System.out.println(i);
 //    }
 
-    int start = n;
-    while(start>0){
-        System.out.println(start);
-        start--;
+//    int start = n;
+//    while(start>0){
+//        System.out.println(start);
+//        start--;
+//    }
+    int st = 1;
+    while(st <=100){
+        System.out.println(st);
+
+        st*=2;
     }
+
+
+
+
     }
 }
+
+
