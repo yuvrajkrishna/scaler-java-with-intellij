@@ -56,14 +56,13 @@ public class LogicProblem  {
 //        Give a series of form 3i+2 print first n terms of series
         int num = 5;
         int i = 1;
-        while(i <= num){
-            int term = 3*i+2;
-            if(term % 5 == 0){
-                i++;
-                num++;
-                continue;
+        int terms = 0;
+        while(terms <= num){
+          int val = 3*i + 2;
+            if (val % 5 != 0) {
+                System.out.println(val);
+                terms++;
             }
-            System.out.println(term);
             i++;
         }
 
