@@ -9,7 +9,7 @@ public class reversearr {
         return -1;
     }
     static void main() {
-        int key = 10;
+        int key = 4;
         int arr[] = {2,4,6,8,10};
         int ans = linearSearch(arr,key);
         System.out.println(ans);
